@@ -18,3 +18,8 @@
 
 #### STG_TPCH_ORDERS
 ![image](https://github.com/AdamChan-ML/dbt-snowflake/assets/78518992/ac34d0cf-64a6-47af-ad37-dc1a06845bd7)
+
+### Airflow DAG
+![Screenshot 2024-05-07 at 9 52 53 PM](https://github.com/AdamChan-ML/dbt-snowflake/assets/78518992/1f22f8a3-6032-4979-8ff7-8a0dd41a0bf0)
+
+![image](https://github.com/AdamChan-ML/dbt-snowflake/assets/78518992/7b15770d-5216-4c94-86cf-482b04f44bd5)
