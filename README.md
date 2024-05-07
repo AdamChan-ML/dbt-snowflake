@@ -1,9 +1,9 @@
 ## DBT, Snowflake & Airflow Mini Project
 
 ### Data Source
-As for the data source, TPC-H sample data is chosen as it is provided in Snowflake. 
+As for the data source, TPC-H sample data is chosen as it is provided in Snowflake./n
 As described in the TPC Benchmark™ H (TPC-H) specification:
-“TPC-H is a decision support benchmark. It consists of a suite of business-oriented ad hoc queries and concurrent data modifications. The queries and the data populating the database have been chosen to have broad industry-wide relevance. This benchmark illustrates decision support systems that examine large volumes of data, execute queries with a high degree of complexity, and give answers to critical business questions.”
+- “TPC-H is a decision support benchmark. It consists of a suite of business-oriented ad hoc queries and concurrent data modifications. The queries and the data populating the database have been chosen to have broad industry-wide relevance. This benchmark illustrates decision support systems that examine large volumes of data, execute queries with a high degree of complexity, and give answers to critical business questions.”
 
 ### Extract, Load, Transform (ELT) Pipeline:
 1. Data Extraction: TPCH sample data is extracted from Snowflake.
