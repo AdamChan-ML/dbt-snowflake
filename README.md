@@ -21,10 +21,14 @@ As described in the TPC Benchmark™ H (TPC-H) specification:
 ![image](https://github.com/AdamChan-ML/dbt-snowflake/assets/78518992/10c6e34d-1c43-41ea-b007-3e1b021ff79c)
 
 ### DBT Generic Test
-
+- Generic test is carried out to validate the overall quality and consistency of your data transformations that checks for common issues such as null values, uniqueness constraints, and referential integrity. 
+![image](https://github.com/AdamChan-ML/dbt-snowflake/assets/78518992/1d1550c9-a40d-4252-8490-4363eb6628b2)
 
 ### DBT Singular Tests
+- Singular test focuses on specific attributes or conditions within the data that performs targeted checks for outliers, specific patterns, or business rules that are critical. 
+![image]("https://github.com/AdamChan-ML/dbt-snowflake/assets/78518992/7ba95433-2ba3-4040-997d-2356b4f0bdec")
 
+![image](https://github.com/AdamChan-ML/dbt-snowflake/assets/78518992/5a5fcfbd-0a1f-49e9-9518-0644a4b0ca77)
 
 ### Orchestration: Airflow DAG
 - Airflow helps to orchestrate the execution of our pipeline tasks, that allows us to monitor the flow of data transformation seamlessly.
@@ -32,10 +36,12 @@ As described in the TPC Benchmark™ H (TPC-H) specification:
 
 ![image](https://github.com/AdamChan-ML/dbt-snowflake/assets/78518992/7b15770d-5216-4c94-86cf-482b04f44bd5)
 
-
 ### Result Tables (in Snowflake)
-#### FCT_ORDERS
-![image](https://github.com/AdamChan-ML/dbt-snowflake/assets/78518992/6bd53b20-e3f4-4afc-aa6f-efcd52b71d91)
+#### STG_TPCH_LINE_ITEMS
+![image](https://github.com/AdamChan-ML/dbt-snowflake/assets/78518992/ed56d7e1-4667-4e21-88c7-87b1a181e691)
+
+#### STG_TPCH_ORDERS
+![image](https://github.com/AdamChan-ML/dbt-snowflake/assets/78518992/ac34d0cf-64a6-47af-ad37-dc1a06845bd7)
 
 #### INT_ORDER_ITEMS
 ![image](https://github.com/AdamChan-ML/dbt-snowflake/assets/78518992/f562a115-890e-494f-9b6b-34418df3dd2b)
@@ -43,9 +49,5 @@ As described in the TPC Benchmark™ H (TPC-H) specification:
 #### INT_ORDER_ITEMS_SUMMARY
 ![image](https://github.com/AdamChan-ML/dbt-snowflake/assets/78518992/59bc29c2-699c-403d-bcec-61b8e4577fa0)
 
-#### STG_TPCH_LINE_ITEMS
-![image](https://github.com/AdamChan-ML/dbt-snowflake/assets/78518992/ed56d7e1-4667-4e21-88c7-87b1a181e691)
-
-#### STG_TPCH_ORDERS
-![image](https://github.com/AdamChan-ML/dbt-snowflake/assets/78518992/ac34d0cf-64a6-47af-ad37-dc1a06845bd7)
-
+#### FCT_ORDERS
+![image](https://github.com/AdamChan-ML/dbt-snowflake/assets/78518992/6bd53b20-e3f4-4afc-aa6f-efcd52b71d91)
