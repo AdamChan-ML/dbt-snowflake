@@ -23,3 +23,6 @@
 ![Screenshot 2024-05-07 at 9 52 53 PM](https://github.com/AdamChan-ML/dbt-snowflake/assets/78518992/1f22f8a3-6032-4979-8ff7-8a0dd41a0bf0)
 
 ![image](https://github.com/AdamChan-ML/dbt-snowflake/assets/78518992/7b15770d-5216-4c94-86cf-482b04f44bd5)
+
+### DBT Run
+![image](https://github.com/AdamChan-ML/dbt-snowflake/assets/78518992/10c6e34d-1c43-41ea-b007-3e1b021ff79c)
